@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AG Consultoría | JD Edwards ERP</title>
+  <!-- Tailwind CSS desde CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome para íconos -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body::before {
+      content: "";
+      background: url('https://raw.githubusercontent.com/GERALANIS/AG2/ba48f6a15af495bb3d1e634bad7e87be6f1f1568/LOGO%20AG.png') no-repeat center bottom;
+      background-size: 350px;
+      opacity: 0.1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    body > * {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+
+<body class="bg-blue-50 text-gray-800 font-sans">
+  <!-- Encabezado con logo -->
+  <header class="bg-white shadow p-4 flex justify-between items-center">
+    <img src="https://raw.githubusercontent.com/GERALANIS/AG2/ba48f6a15af495bb3d1e634bad7e87be6f1f1568/LOGO%20AG.png" alt="Logo de AG Consultoría" class="h-24">
+    <nav class="space-x-4">
+      <a href="#quienes" class="hover:text-blue-500">Quiénes Somos</a>
+      <a href="#servicios" class="hover:text-blue-500">Servicios</a>
+      <a href="#soporte" class="hover:text-blue-500">Soporte</a>
+      <a href="#contacto" class="hover:text-blue-500">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Imagen de tecnología destacada -->
+  <section class="relative">
+    <img src="https://images.unsplash.com/photo-1581092334805-4c4e7a55b9c0?auto=format&fit=crop&w=1470&q=80" alt="Tecnología ERP" class="w-full h-64 object-cover">
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+      <h1 class="text-white text-3xl md:text-4xl font-bold">Soluciones ERP a tu alcance</h1>
+    </div>
+  </section>
+
+  <!-- Sección: Qué es un ERP -->
+  <section class="p-6 bg-white">
+    <h2 class="text-2xl font-bold mb-2">¿Qué es un ERP?</h2>
+    <p>Un ERP (Enterprise Resource Planning) permite integrar y automatizar los procesos esenciales de una empresa en un solo sistema.
